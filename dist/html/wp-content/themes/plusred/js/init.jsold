@@ -1,0 +1,53 @@
+jQuery(function( $ ){ 
+     
+    $.easing.elasout = function(x, t, b, c, d) {
+        var s=1.70158;var p=0;var a=c;
+        if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+        if (a < Math.abs(c)) { a=c; var s=p/4; }
+        else var s = p/(2*Math.PI) * Math.asin (c/a);
+        return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
+    };
+    // back links
+    $('a.back').click(function(){
+        $(this).parents('div.section_inner').scrollTo( 0, 800, { queue:true } );
+       // $(this).parents('div.section').find('span.message').text( this.title );
+        return false;
+    });    
+       
+    // This one is important, many browsers don't reset scroll on refreshes
+    // Reset all scrollable panes to (0,0)
+    $('#outer').scrollTo( 0 );
+    // Reset the screen to (0,0)
+    $.scrollTo( 0 );
+     
+    $(window).scrollTop(0);
+    // The default axis is 'y', but in this demo, I want to scroll both
+    // You can modify any default like this
+    $.localScroll.defaults.axis = 'xy';
+    
+    // Scroll initially if there's a hash (#something) in the url 
+    $.localScroll.hash({
+        target: '#section', // Could be a selector or a jQuery object too.
+        queue:true,
+        duration:1500,
+        easing:'elasout'
+    });  
+    
+    /**
+     * NOTE: I use $.localScroll instead of $('#navigation').localScroll() so I
+     * also affect the >> and << links. I want every link in the page to scroll.
+     */
+    $.localScroll({
+        target: '#content', // could be a selector or a jQuery object too.
+        queue:true,
+        duration:1500,
+        hash:true,
+        easing:'swing',
+        onBefore:function( e, anchor, $target ){
+            // The 'this' is the settings object, can be modified
+        },
+        onAfter:function( anchor, settings ){
+            // The 'this' contains the scrolled element (#content)
+        }
+    });  
+});

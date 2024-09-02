@@ -1,0 +1,243 @@
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.jplayer.org
+ *
+ * Skin Name: Pink Flag
+ *
+ * Copyright (c) 2011 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *  - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 1.0 (jPlayer 2.1.0)
+ * Date: 1st September 2011
+ */
+
+div.jp-audio {
+    width:156px;
+    padding:0px;
+    margin-right:0; 
+    float:right; 
+}
+
+
+
+div.jp-interface {
+    position: relative;
+    width:100%;
+ 
+}
+
+
+div.jp-audio .jp-interface {
+    height: 26px;
+    overflow:hidden; 
+}
+
+/* @group CONTROLS */
+
+div.jp-controls-holder {
+    clear: both;
+    width:440px;
+    margin:0 auto 10px auto;
+    position: relative;
+    overflow:hidden;
+    border:1px solid red;
+}
+
+div.jp-interface ul.jp-controls {
+    list-style-type:none;
+    padding: 1px 0 2px 1px;
+    overflow:hidden;
+    width: 24px;
+    height: 18px;
+    position:absolute;margin-left:-250px;
+     top:9px;
+}
+
+div.jp-audio ul.jp-controls {
+    margin:0 auto;
+}
+
+div.jp-video ul.jp-controls {
+    margin:0 0 0 115px;
+    float:left;
+    display:inline; /* need this to fix IE6 double margin */
+}
+
+div.jp-interface ul.jp-controls li {
+    display:inline;
+    float: left;
+}
+div.jp-interface ul.jp-controls a {
+    display:block;
+    overflow:hidden;
+    text-indent:-9999px;
+    height: 16px;
+    margin: 0 1px 1px 0;
+    padding: 0;
+}
+
+
+/* @group single player controls */
+
+div.jp-type-single  .jp-controls li a{
+    width: 22px;
+}
+
+div.jp-type-single  .jp-play {
+     background: url("images/volume-off.png") left -1px no-repeat;  
+}
+
+div.jp-type-single  .jp-play:hover {
+     background: url("images/volume-off.png") left -1px  no-repeat;  
+}
+
+div.jp-type-single  .jp-pause {
+    background: url("images/volume-off.png") left -1px  no-repeat;  
+}
+
+div.jp-type-single  .jp-pause:hover {
+    background: url("images/volume-off.png") left -1px  no-repeat;
+}
+
+div.jp-type-single  .jp-stop {
+    background: url("images/volume-off.png") no-repeat;  
+}
+
+div.jp-type-single  .jp-stop:hover {
+   background: url("images/volume-off.png") no-repeat;  
+}
+
+/* @end */
+
+
+
+
+
+/* @group TOGGLES */
+
+ul.jp-toggles {
+    list-style-type:none;
+    padding:0;
+    margin:0 auto;
+    z-index:20;
+    overflow:hidden;
+}
+
+div.jp-audio ul.jp-toggles {
+    width:55px;
+}
+
+div.jp-audio .jp-type-single ul.jp-toggles {
+    width:25px;
+}
+
+div.jp-video ul.jp-toggles {
+    width:100px;
+    margin-top: 10px;
+}
+
+ul.jp-toggles li{
+    display:block;
+    float:right;
+}
+
+ul.jp-toggles li a{
+    display:block;
+    width:25px;
+    height:18px;
+    text-indent:-9999px;
+    line-height:100%; /* need this for IE6 */
+}
+  
+
+/* @end */
+
+
+
+
+.jp-volume-bar {
+    background: url("images/volume-bar.png") 0px 0px repeat-x;
+    position: absolute;
+    width: 156px;
+    height: 21px;
+    padding: 0;    
+    overflow: hidden;
+}
+
+.jp-volume-bar:hover {
+    cursor:  pointer;
+}
+
+
+div.jp-audio .jp-interface .jp-volume-bar {
+    top:10px;
+    left: 27px; 
+}
+
+div.jp-video .jp-volume-bar {
+    top: 0;
+    left: 0;
+    width:95px;
+    border-right:1px solid #000;
+    margin-top: 30px;
+}
+
+.jp-volume-bar-value {
+    background: url("images/volume.png") 0px 0px repeat-x;
+    height: 21px; border-right:7px solid red;
+}
+
+/* @end */
+
+      
+div.jp-jplayer audio,
+div.jp-jplayer {
+    width:0px;
+    height:0px;
+}
+
+div.jp-jplayer {
+    background-color: #000000;
+}
+
+/* @group NO SOLUTION error feedback */
+
+.jp-no-solution {
+    position:absolute;
+    width:390px;
+    margin-left:-202px;
+    left:50%;
+    top: 10px;
+
+    padding:5px;
+    font-size:.8em;
+    background-color:#3a2a45;
+    border-top:2px solid #554461;
+    border-left:2px solid #554461;
+    border-right:2px solid #180a1f;
+    border-bottom:2px solid #180a1f;
+    color:#FFF;
+    display:none;
+}
+
+.jp-no-solution a {
+    color:#FFF;
+}
+
+.jp-no-solution span {
+    font-size:1em;
+    display:block;
+    text-align:center;
+    font-weight:bold;
+}
+
+.jp-audio .jp-no-solution {
+    width:190px;
+    margin-left:-102px;
+}
+
+/* @end */
+ 

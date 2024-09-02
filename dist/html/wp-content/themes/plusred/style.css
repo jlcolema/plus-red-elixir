@@ -1,0 +1,1159 @@
+/*
+Theme Name: Plus Red
+
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+@font-face {
+	font-family: 'GothamHTFMedium';
+	src: url('fonts/gothamhtf-medium-webfont.eot');
+	src: url('fonts/gothamhtf-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/gothamhtf-medium-webfont.woff') format('woff'),
+		 url('fonts/gothamhtf-medium-webfont.ttf') format('truetype'),
+		 url('fonts/gothamhtf-medium-webfont.svg#GothamHTFMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'GothamHTFBookRegular';
+	src: url('fonts/gothamhtf-book-webfont.eot');
+	src: url('fonts/gothamhtf-book-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/gothamhtf-book-webfont.woff') format('woff'),
+		 url('fonts/gothamhtf-book-webfont.ttf') format('truetype'),
+		 url('fonts/gothamhtf-book-webfont.svg#GothamHTFBookRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'GothamHTFBold';
+	src: url('fonts/gothamhtf-bold-webfont.eot');
+	src: url('fonts/gothamhtf-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/gothamhtf-bold-webfont.woff') format('woff'),
+		 url('fonts/gothamhtf-bold-webfont.ttf') format('truetype'),
+		 url('fonts/gothamhtf-bold-webfont.svg#GothamHTFBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body {
+width:100%;margin:0;min-height:1000px;
+	color:black;
+	background:url('images/body-bg.png') top center repeat-x;
+
+}
+html , body {
+	min-width:952px;
+}
+p { color:white; }
+#navigation, #content2,.section2{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+
+#navigation {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+#logo {
+	margin-top:38px;
+	height:58px;
+	width:180px;
+	float:left;
+
+}
+#magic-line { background:url('images/nav-slider.png') center top no-repeat;
+position: absolute; top: 76px; left: 0; width: auto; height: 9px; border-bottom:0px solid #f10000; }
+.blue { border-bottom:0px solid #f10000 !important; margin-left:0 !important;}
+.green { border-bottom:0px solid #f10000 !important; margin-left:0 !important; }
+.yellow { border-bottom:0px solid #f10000 !important;  margin-left:0 !important;}
+
+#navigation{
+
+	display:block;
+	background-color:transparent;
+
+	float:right;
+	height:32px;
+	margin:50px 0px;
+	border-bottom:1px solid #f10000;
+}
+#nav-bar {
+ position:relative;top:0px; width:631px;  height:1px;float:right;
+}
+	#navigation .sup{
+		margin:0px;
+
+	}
+		#navigation ul{
+			margin:5px 0;
+			list-style:none; text-indent:0;margin-left:0;padding-left:0;
+
+		}
+		#navigation ul li#magic-line {
+									margin-left:0px !important;
+		}
+		#navigation ul li {
+			float:left; text-align:left; text-indent:0;margin-left:24px;padding-left:0;
+		}
+
+
+		#navigation ul li.menu-item-29 { margin-left:0;}
+		#navigation a{
+			color:white;
+			font-family: 'GothamHTFMedium';
+			font-size:12px;
+			text-transform:uppercase;
+			text-decoration:none;
+
+		}
+		#navigation .sup li{
+			margin: 3px 0 !important;
+
+			font-size:12px;
+		}
+		#navigation a.scrolling{
+			color:#933;
+		}
+#footer {
+	 width:940px;  text-transform:uppercase;
+	 margin:auto;
+	 border-top:1px solid black;
+	 height:24px;
+	 position:relative;
+	 margin-top:-35px;
+	 padding-bottom:10px;
+	 font-size:12px;
+	 padding-top:0;vertical-align: top;
+	 font-family: 'GothamHTFBookRegular';
+	color:black;
+	text-decoration:none;
+}
+.footer-inner{
+padding-top:20px;
+margin:auto;width:898px;
+height:220px;
+}
+ul.footer-home {
+width:898px;height:220px;list-style:none;  display:block;
+
+}
+ul.footer-beyond {
+width:820px;height:220px;list-style:none; margin-left:30px;
+
+}
+ul.footer-about {
+width:874px;height:220px;list-style:none; margin:auto;
+}
+ ul.footer-about li {
+  width:276px;margin-left:10px;  margin-top:5px;height:217px;
+  display:inline-block;float:left; margin-right:5px;
+ }
+  ul.footer-about li.first {
+  margin-left:5px !important;
+  }
+  ul.footer-home li {
+  width:210px;margin-left:19px;  height:220px;
+  display:inline-block;float:left;
+ }
+  ul.footer-home li.first {
+  margin-left:0 !important;
+  }
+
+ ul.footer-beyond li {
+ width:115px;margin-left:26px;
+  display:inline-block;float:left;  height:220px;
+ }
+  ul.footer-beyond li.first {
+  margin-left:0 !important;
+  }
+ .footer-contact { width:220px;padding-top:60px;margin:auto;height:140px;
+  font-size:16px; text-align:left;line-height:18px;
+	font-family: 'GothamHTFMedium';   text-transform:uppercase;
+	color:black;
+	}
+	.footer-find { width:430px;padding-top:60px;margin:auto;height:140px;
+  font-size:22px; text-align:left;line-height:26px;
+	font-family: 'GothamHTFBookRegular';
+	color:black;
+	}
+	#find-coming-soon {
+	position:absolute;margin-top:377px;margin-left:332px;
+	width:240px;height:36px;
+	font-size:16px; text-align:left;line-height:18px;
+	font-family: 'GothamHTFBookRegular';   text-transform:uppercase;
+	color:white;  padding-top:8px;padding-left:8px;
+	}
+  .home-image {
+  height:220px;
+  width:210px;
+
+  }
+
+ .home-over { overflow:visible; }
+
+.footer{
+	background:url('images/footer-1.png') no-repeat;
+   height:299px;
+	width:966px;
+	margin:auto;
+	position:relative;
+	top:704px;
+	left:-26px;
+	float:center;
+	display:block;
+}
+
+.home .footer {
+
+  z-index: 10;
+
+}
+
+#footer a {
+	font-family: 'GothamHTFBookRegular';
+	color:black;
+	text-decoration:none;
+	margin-right:40px;
+	font-size:12px;
+
+}
+.Container {
+  position: absolute;
+  top: 30px; left: 90px;
+  width: 746px;
+  height:454px;
+
+}
+#Scroller-1,#Scroller-2, #Scroller-3 {
+  position: absolute;
+  overflow: hidden;
+ width: 746px;
+  height:454px;
+}
+#Scroller-1 p,#Scroller-2 p, #Scroller-3 p {
+  margin: 0; padding: 0;
+   height:0 !important;line-height:0 !important;
+}
+.Scroller-Container {
+  position: absolute;
+  top: 0px; left: 0px;
+}
+
+#Scrollbar-Container-1,#Scrollbar-Container-2, #Scrollbar-Container-3 {
+  position: absolute; width:31px;height:454px;
+
+  top: 30px; left: 855px;
+}
+.Scrollbar-Up {
+  cursor: pointer;
+  position: absolute;
+}
+.Scrollbar-Track {
+  width: 31px; height: 454px;
+  position: absolute;
+
+  background: transparent url(images/scrollbar.png) no-repeat center center;
+}
+.Scrollbar-Handle {
+  position: absolute;margin-left:5px; cursor:pointer;
+  width: 20px; height: 22px;
+}
+.Scrollbar-Down {
+  cursor: pointer;
+  position: absolute;
+  top: 187px;
+}
+#scroll-links { height:20px;width:160px;position:absolute;margin-top:190px;margin-left:480px; }
+.ecwid-productBrowser-categoryPath,
+.ecwid-results-topPanel,
+
+/*.ecwid-productBrowser-head*/
+ {
+ display:none;
+}
+.jp-audio { margin-top:4px !important; }
+#buy-now-button-holder {
+display:inline-block;width:120px;height:54px;float:right;}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details-descr { top:-400px important; position:relative !important; }
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsGrid-productTopFragment {
+width:470px;background:tan;padding:0px;margin:0px;display:none;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsGrid-productTopFragment img {
+height:420px;width:420px;display:none;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser,
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-productsGrid-cell {
+padding: 0px;
+}
+html#ecwid_html body#ecwid_body ecwid-productBrowser ecwid-productBrowser-CategoryPage {
+padding:0px;margin:0px;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsGrid-productTopFragment-mouseover {
+	border: none;
+	margin: 0px;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsGrid-productBottomFragment-mouseover {
+	border: none;
+	margin: 0px;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-OrderConfirmationPage div.ecwid-productBrowser-head {
+display:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Invoice {
+   margin-top:-40px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-ProductPage-11774308 .ecwid-productBrowser-head {
+background: url('images/power-elixir-12-pack.png') left 2px no-repeat !important;
+	height:35px !important;  width:600px;
+	text-indent:-9999px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-ProductPage-11774307 .ecwid-productBrowser-head {
+background: url('images/rescue-elixir-12-pack.png') left 2px no-repeat !important;
+	height:35px !important;  width:600px;
+	text-indent:-9999px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details div.ecwid-ContinueShoppingButton,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details div.ecwid-ContinueShoppingButton-ie6,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-categoryPath,
+html#ecwid_html body#ecwid_body div.ecwid-results-topPanel,
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-PasswordBlock,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-auth,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productDragLabel,
+html#ecwid_html body#ecwid_body div.ecwid-minicart,
+html#ecwid_html body#ecwid_body div.dragdrop-dropTarget,
+html#ecwid_html body#ecwid_body div.ecwid-minicart-floating,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsGrid-productBottomFragment
+ {
+ display:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productsGrid-productBottomFragment {
+text-indent:-99999px;height:40px;width:196px;background:red;overflow:hidden;
+}
+div.ecwid-Checkout-ShippingAddress button.gwt-Button {
+display:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-floatLeftPanel {
+height:450px;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-Checkout div.ecwid-floatLeftPanel {
+height:auto;
+}
+ html#ecwid_html body#ecwid_body div.ecwid-Invoice {
+border: none !important;
+padding: 0 !important;
+}
+html#ec
+html#ecwid_html body#ecwid_body button.gwt-Button, html#ecwid_html body#ecwid_body #wrapper button.gwt-Button {
+background:transparent;
+border:none !important;
+margin-left:2px;
+}
+html#ecwid_html body#ecwid_body  #wrapper button.ecwid-productBrowser-details-addMoreButton{
+height:31px !important;width:90px !important;
+background: transparent url(images/add-more.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+   margin-top:6px !important;
+
+}
+html#ecwid_html body#ecwid_body #wrapper button.ecwid-productBrowser-details-openBagButton {
+height:31px !important;width:90px !important;
+background: transparent url(images/checkout-button.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+   margin-top:6px !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-Invoice table {
+ background: transparent !important;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-CartPage .ecwid-productBrowser-cart-clearBagButton {
+height:31px !important;width:92px !important;
+background: transparent url(images/clear-bag.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+
+}
+html#ecwid_html body#ecwid_body td.ecwid-Invoice-cell {
+ background:transparent !important;
+}
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-cell-qty, html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell-qty, html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell-price, html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell-subtotal,
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-cell-price, html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-cell-subtotal {
+vertical-align: top !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-CartPage .ecwid-productBrowser-cart-continueShoppingButton {
+height:31px !important;width:168px !important;
+background: transparent url(images/continue-shopping.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+   margin-left:-580px !important; margin-top:-15px !important;
+   position:absolute !important;
+}
+html#ecwid_html body#ecwid_body .ecwid-ContinueShoppingButton-Invoice,
+html#ecwid_html body#ecwid_body .ecwid-productBrowser-cart-emptyCartPanel button.gwt-Button {
+   height:31px !important;width:168px !important;
+background: transparent url(images/continue-shopping.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-CartPage .ecwid-productBrowser-cart-checkoutButton {
+height:38px !important;width:196px !important;
+background: transparent url(images/checkout.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+   margin-left:4px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-EmailBlock div.ecwid-form {
+  width:430px !important;padding:0 !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-auth { position:absolute !important;margin-top:-20px !important; }
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-CartPage .ecwid-productBrowser-head {
+   background: transparent url(images/your-shopping-bag.png) no-repeat top left;
+   text-indent:-999999px;
+}
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-cell,
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell {
+
+border-bottom: solid 3px #252525 !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-backgroundedPanel {
+background-color: #252525 !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart div.ecwid-productBrowser-backgroundedPanel {
+
+padding: 10px !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-PasswordBlock div.ecwid-fieldWrapper input.gwt-PasswordTextBox {
+width: 210px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-EmailBlock div.ecwid-fieldWrapper input.gwt-TextBox {
+width: 260px !important;
+}
+div.ecwid-Checkout-PasswordBlock-tip {
+font: 12px helvetica, arial, verdana, sans-serif !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-blockTitle, html#ecwid_html body#ecwid_body table.ecwid-Checkout-blockTitle div.gwt-Label {
+font: normal 18px helvetica, arial, verdana, sans-serif !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-up-hovering,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-up-hovering,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-down,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-down-hovering,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-down,
+html#ecwid_html body#ecwid_body div.ecwid-AddToBagButton-ie6-down-hovering {
+ margin-left:4px !important;
+  background: url('images/add-to-cart-button.png') left top no-repeat !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details-inStockLabel {
+	display:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-price,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-totalAmount {
+	font-family: 'GothamHTFMedium' !important;
+	font-size:14px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details div.ecwid-productBrowser-price {
+	background: url('images/price-bg.png') left 2px no-repeat !important;
+	text-align:right !important;
+}
+ html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-totalAmount,
+ html#ecwid_html body#ecwid_body div.ecwid-Invoice-Summary-value {
+	color: #ff0000 !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productNameLink {
+   background: url('images/plus-red-small.png') left 4px no-repeat !important;
+}
+html#ecwid_html body#ecwid_body table.ecwid-productBrowser-cart-totalAmountPanel {
+	background: url('images/price-bg.png') left 17px no-repeat !important;
+	text-align:right !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-productNameLink a {
+	padding-left:38px !important;
+	text-decoration:none !important;
+	text-transform:uppercase !important;
+
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-Invoice-cell-title {
+	background-color: transparent !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart div.ecwid-productBrowser-productNameLink a,
+html#ecwid_html body#ecwid_body div.ecwid-Person,
+html#ecwid_html body#ecwid_body div.ecwid-Invoice-ShippingDetails .gwt-HTML,
+html#ecwid_html body#ecwid_body div.ecwid-Invoice-block .gwt-Label,
+ div.ecwid-Invoice-Summary-label,
+html#ecwid_html body#ecwid_body #printMessage,
+html#ecwid_html body#ecwid_body .ecwid-Invoice-footer-orderConfirmation-text,
+ecwid-productBrowser-cart div.ecwid-productBrowser-productNameLink a:active, html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart div.ecwid-productBrowser-productNameLink a:visited {
+	font-family: 'GothamHTFMedium' !important;
+	font-size:12px !important;
+	color:white !important;
+
+}
+html#ecwid_html body#ecwid_body .ecwid table {
+	margin-top:6px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-totalLabel,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-sku,
+html#ecwid_html body#ecwid_body span.ecwid-productBrowser-cart-weight {
+	display:none !important
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details-inTheBag div {
+	font-family: 'GothamHTFBookRegular' !important;
+	color: #A20505 !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details-like {
+	padding-bottom: 0px !important; display:none !important;
+}
+html#ecwid_html body#ecwid_body table.ecwid-fieldEnvelope {
+	width: 180px !important;
+	margin-right:2px !important;
+}
+html#ecwid_html body#ecwid_body table.ecwid-fieldEnvelope input.gwt-TextBox {
+padding: 0 !important;
+}
+
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details-qtyLabel {
+	display:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-details-qtyPanel div.ecwid-fieldEnvelope-around {
+	background: url('images/quantity-bg.png') left 2px no-repeat !important;
+	height:40px !important;
+}
+ td.ecwid-productBrowser-cart-itemsTable-cell-price, html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-cell-subtotal {
+	text-align: center !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-hint {
+	margin-top: 4px !important;
+}
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell-subtotal {
+ padding-left:12px !important;
+}
+html#ecwid_html body#ecwid_body input.ecwid-productBrowser-details-qtyTextField {
+	border: none !important;
+	background:transparent !important;
+	margin-left:166px !important;
+	vertical-align: middle;
+	width: 25px;
+	color:#A20505 !important;margin-top:-4px !important;
+	font-family: 'GothamHTFMedium' !important;
+	font-size:14px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-floatLeftPanel {
+ border: none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-PaymentMethodsBlock {
+  background: url('images/choose-payment.png') 5px 6px no-repeat !important; padding-top:20px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-PaymentMethodsBlock div.ecwid-Checkout-blockTitle {
+ display:none !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-form {
+background:transparent !important;
+}
+html#ecwid_html body#ecwid_body input.ecwid-AddressForm-name, html#ecwid_html body#ecwid_body input.ecwid-AddressForm-address1, html#ecwid_html body#ecwid_body input.ecwid-AddressForm-address2, html#ecwid_html body#ecwid_body input.ecwid-AddressForm-company-name {
+	width: 260px !important;
+}
+html#ecwid_html body#ecwid_body select.ecwid-AddressForm-country {
+	  width: 260px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-EmailBlock div.ecwid-Checkout-blockTitle {
+  background: url('images/enter-your-email.png') left top no-repeat !important;
+  text-indent:-9999px !important;
+  padding-top:10px !important;
+  margin-top:-6px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-AddressForm div.ecwid-fieldWrapper label.ecwid-fieldLabel {
+ padding-left:10px !important;
+ color: white !important;
+ width:110px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-blockTitle {
+  background: url('images/enter-billing-address.png') left top no-repeat !important;
+  text-indent:-9999px !important;
+  padding-top:10px !important;
+  margin-top:-6px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-PaymentMethodsBlock div.ecwid-Checkout-blockTitle {
+ display:none !important;
+}
+html#ecwid_html body#ecwid_body table.ecwid-productBrowser-cart-estimation button.gwt-Button {
+  margin-left:30px !important;
+  margin-top:10px !important;
+  height:31px !important;width:168px !important;
+background: transparent url(images/choose-my-address.png) no-repeat top left !important;
+   text-indent:-999999px !important;
+   border:none !important;
+
+   position:absolute !important;
+}
+html#ecwid_html body#ecwid_body td.ecwid-Invoice-edgeCell {
+	background-color: transparent !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-CartPage div.ecwid-productBrowser-head {
+	height:40px !important;
+	text-indent:-9999px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-CartPage . ecwid-productBrowser-innerTable div.ecwid-productBrowser-head {
+
+	background: url('images/payment-details.png') left 2px no-repeat !important;
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-PaymentMethodsBlock-PaymentOption {
+	background:transparent !important;
+	padding-left:20px !important;
+}
+html#ecwid_html body#ecwid_body .ecwid-productBrowser-cart-itemsTable-cell-selected {
+background: #333 !important;
+}
+html#ecwid_html body#ecwid_body input.ecwid-productBrowser-cart-qtyTextField {
+	float:right !important;
+	margin-top:-6px !important;
+	margin-right:70px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-price,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-subtotalAmount,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-taxAmount,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-shippingAmount,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-emptyCartPanel .gwt-Label {
+	font-family: 'GothamHTFBold' !important;
+	font-size:11px !important;
+	color: white !important;
+}
+html#ecwid_html body#ecwid_body td.ecwid-productBrowser-cart-itemsTable-headerCell,
+html#ecwid_html body#ecwid_body .ecwid-Invoice-blockTitle {
+   font-family: 'GothamHTFMedium' !important;
+	font-size:16px !important;
+	color: white !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-subtotalLabel,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-taxLabel,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-shippingLabel,
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-estimationNote {
+	font-family: 'GothamHTFMedium' !important;
+	font-size:11px !important;
+	color: white !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-estimationNote{
+ text-align:center;
+}
+html#ecwid_html body#ecwid_body div.ecwid-productBrowser-cart-estimationNote span{
+ display:block; margin-top:6px !important;
+}
+.ecwid-Checkout-EmailBlock {
+ position:absolute !important;left:0 !important;  margin-top:170px !important;
+}
+.ecwid-PaymentMethodSelector {
+
+}
+html#ecwid_html body#ecwid_body div.ecwid-AddressForm-buttonsPanel {
+padding: 5px 0px 5px 162px !important;
+}
+div.ecwid-Account-content { height:300px !important;overflow:scrolling; }
+
+div.ecwid-Account { height:400px !important;overflow:scrolling; }
+.ecwid-Checkout-PasswordBlock {
+ top:100px !important;
+ position:absolute !important;left:0 !important;
+}
+div.ecwid-form {
+padding: 0px !important;
+width: 405px !important;
+}
+html#ecwid_html body#ecwid_body div.ecwid-Checkout-PasswordBlock-tip {
+font: 12px helvetica, arial, verdana, sans-serif !important;
+
+}
+
+/* Styles added by Joshua (January 7, 2016) */
+
+
+/* Navigation */
+
+#navigation ul li:first-of-type {
+
+	margin-left: 2px;
+
+}
+
+/* Home */
+
+#home_container {}
+
+	#home_container .flexslider {
+
+		width: 940px;
+		height: 620px;
+		margin: 0;
+		padding: 0;
+
+	}
+
+		#home_container .slides {}
+
+		.flexslider .slides:after {
+
+			content: "\0020";
+			display: block;
+			clear: both;
+			visibility: hidden;
+			line-height: 0;
+			height: 0;
+
+		}
+
+		html[xmlns] .flexslider .slides {
+
+			display: block;
+
+		}
+
+		* html .flexslider .slides {
+
+			height: 1%;
+
+		}
+
+			#home_container .slides li {
+
+				width: 940px;
+				height: 620px;
+
+			}
+
+			.flexslider .slides > li {
+
+				display: none;
+				-webkit-backface-visibility: hidden;
+
+			}
+
+			.no-js .flexslider .slides > li:first-child {
+
+				display: block;
+
+			}
+
+				.flexslider .slides img {
+
+					display: block;
+					/*width: 100%;*/
+
+				}
+
+			.slide-01 {}
+
+				.slide-01 .featured-cans {
+
+					position: absolute;
+					left: 11px;
+					top: 71px;
+					z-index: 1;
+
+				}
+
+					.slide-01 .featured-cans img {}
+
+				.slide-01 .the-revolution-is-here {
+
+					position: absolute;
+					right: -8px;
+					top: 151px;
+					z-index: 1;
+
+				}
+
+					.slide-01 .the-revolution-is-here img {}
+
+				.slide-01 .which-elixir-are-you-looking-for {
+
+					position: absolute;
+					right: 5px;
+					top: 350px;
+					z-index: 1;
+
+				}
+
+					.slide-01 .which-elixir-are-you-looking-for img {}
+
+			.slide-02 {}
+
+				.slide-02 .play {
+
+					position: absolute;
+					top: 352px;
+					left: 50%;
+					margin: 0 0 0 -32px;
+					z-index: 1;
+
+				}
+
+					.slide-02 .play a {
+
+						display: block;
+						width: 64px;
+						height: 64px;
+						background: #ee0413;
+						-webkit-border-radius: 50%;
+						-moz-border-radius: 50%;
+						border-radius: 50%;
+						-webkit-transition: background 0.35s ease-in-out;
+						-moz-transition: background 0.35s ease-in-out;
+						transition: background 0.35s ease-in-out;
+
+					}
+
+					.slide-02 .play a:hover {
+
+						background: #c4020f;
+
+					}
+
+						.slide-02 .play img {}
+
+			.slide-03 {}
+
+				.slide-03 .learn-more {
+
+					position: absolute;
+					top: 472px;
+					left: 50%;
+					margin: 0 0 0 -66px;
+					z-index: 1;
+
+				}
+
+					.slide-03 .learn-more a {
+
+						display: block;
+						width: 133px;
+						height: 38px;
+						background: #ee0413;
+						-webkit-transition: background 0.35s ease-in-out;
+						-moz-transition: background 0.35s ease-in-out;
+						transition: background 0.35s ease-in-out;
+
+					}
+
+					.slide-03 .learn-more a:hover {
+
+						background: #c4020f;
+
+					}
+
+						.slide-03 .learn-more img {}
+
+		#home_container .flex-control-paging {
+
+			position: absolute;
+			left: 0;
+			bottom: 18px;
+			width: 100%;
+			text-align: center;
+			z-index: 5;
+
+		}
+
+			#home_container .flex-control-paging li {
+
+				display: inline-block;
+				margin: 0 10px;
+				text-indent: -9999px;
+
+			}
+
+				#home_container .flex-control-paging a {
+
+					display: block;
+					width: 10px;
+					height: 10px;
+					background: #9e9e9e;
+					-webkit-border-radius: 50%;
+					-moz-border-radius: 50%;
+					border-radius: 50%;
+
+				}
+
+				#home_container .flex-control-paging &:hover {}
+
+				#home_container .flex-control-paging .flex-active {
+
+					background: #eb2123;
+
+				}
+
+.footer-home {}
+
+	.footer-home li {}
+
+		.footer-home li a {
+
+			display: block;
+
+		}
+
+			.footer-home li .image {
+
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 180px;
+				margin: 0 0 5px 0;
+				background: #000000;
+				transition: all 0.35s ease-in-out;
+
+			}
+
+				.footer-home li .home-out {
+
+					position: absolute;
+					left: 0;
+					top: 0;
+					opacity: 1;
+					-webkit-transition: opacity 0.35s ease-in-out;
+					-moz-transition: opacity 0.35s ease-in-out;
+					transition: opacity 0.35s ease-in-out;
+					z-index: 5;
+
+				}
+
+				.footer-home li .home-hover {
+
+					position: absolute;
+					left: 0;
+					top: 0;
+					z-index: 1;
+
+				}
+
+			.footer-home li .label {
+
+				height: 23px;
+				padding-top: 7px;
+				color: #ffffff;
+				background: #000;
+				font-size: 16px;
+				font-family: 'GothamHTFMedium';
+				font-weight: normal;
+				text-transform: uppercase;
+				border-bottom: 5px solid rgb(127, 127, 127);
+				-webkit-transition: border-color 0.35s ease-in-out;
+				-moz-transition: border-color 0.35s ease-in-out;
+				transition: border-color 0.35s ease-in-out;
+
+			}
+
+		.footer-home li:hover {}
+
+			.footer-home li:hover a {}
+
+				.footer-home li:hover .image {}
+
+					.footer-home li:hover .home-out {
+
+						opacity: 0;
+
+					}
+
+					.footer-home li:hover .home-hover {}
+
+				.footer-home li:hover .label {
+
+					border-color: rgb(248, 0, 0);
+
+				}
+
+/* Benefits */
+
+#benefits_content {}
+
+	#benefits_content .Container {
+
+		left: 70px;
+		width: 766px;
+
+	}
+
+		#benefits_content .Scroller-Container {
+
+			padding-left: 90px;
+
+		}
+
+			#benefits_content h1 {
+
+				width: 320px;
+				height: 21px;
+				margin-bottom: 38px;
+				background: url(/wp-content/uploads/2016/02/powerful-benefits.png);
+				text-indent: -9999px;
+
+			}
+
+			#benefits_content h2 {
+
+				position: relative;
+				margin: 20px 0 7px 0 !important;
+				font-size: 21px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #ff0000 !important;
+
+			}
+
+				#benefits_content h2:before {
+
+					content: "";
+
+					display: block;
+					position: absolute;
+					left: -85px;
+					width: 70px;
+					height: 70px;
+					z-index: 1;
+
+				}
+
+				#benefits_content h2.red-marine-algae:before {
+
+					top: -26px;
+					background-image: url(/wp-content/uploads/2016/02/red-marine-algae.png);
+
+				}
+
+				#benefits_content h2.aminos:before {
+
+					top: -26px;
+					background-image: url(/wp-content/uploads/2016/02/aminos.png);
+
+				}
+
+				#benefits_content h2.b-complex:before {
+
+					top: -27px;
+					background-image: url(/wp-content/uploads/2016/02/b-complex.png);
+
+				}
+
+			#benefits_content ul {
+
+				margin-bottom: 56px;
+				padding: 0 0 0 20px;
+				list-style-type: disc;
+
+			}
+
+			#benefits_content ul:last-of-type {
+
+				margin: 0;
+
+			}
+
+				#benefits_content li {
+
+					margin-bottom: 4px;
+					font-size: 16px;
+					line-height: 22px;
+					list-style-type: disc;
+
+				}
+
+				#benefits_content li:last-of-type {
+
+					margin: 0;
+
+				}
+
+/* Styles added by Joshua (February 16, 2016) */
+
+#swipebox-bottom-bar {
+
+	display: none !important;
+
+}
+
+.dot-label {
+
+	margin: 0 0 8px 0;
+	font-size: 24px;
+	font-family: 'GothamHTFBold';
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	text-align: left;
+	color: #ff0000;
+
+}
+
+.dot-label a {
+
+	color: #ff0000 !important;
+	font-weight: normal !important;
+
+}
+
+.dot-label a:hover {
+
+	text-decoration: underline !important;
+}
